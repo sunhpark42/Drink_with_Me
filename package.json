@@ -1,0 +1,24 @@
+{
+  "name": "drink_with_me",
+  "version": "1.0.0",
+  "description": "DRINK (WITH) ME 는 나와 어울리는 술을 찾아주는 서비스입니다. 집에 가던길 바에 들려서 담소를 나누듯, 나와 어울리는 술을 찾아보세요.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunhpark42/Drink_with_Me.git"
+  },
+  "author": "sunhpark (sunny)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunhpark42/Drink_with_Me/issues"
+  },
+  "homepage": "https://github.com/sunhpark42/Drink_with_Me#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

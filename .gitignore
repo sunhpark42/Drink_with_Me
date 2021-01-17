@@ -42,4 +42,4 @@ Temporary Items
 # End of https://www.toptal.com/developers/gitignore/api/macos,vscode
 
 node_modules
-package_lock.json
+package-lock.json
