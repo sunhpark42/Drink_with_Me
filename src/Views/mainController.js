@@ -12,6 +12,7 @@ export default class MainController {
         const audio = new Audio('Sunny Days - Anno Domini Beats.mp3');
         const shareMainKakao = this.shareMainKakao;
         const shareFinKakao = this.shareFinKakao;
+        const restart = this.restart;
         const result = new URLSearchParams(location.search).get('result');
         console.log(result)
         if (result != null) {
@@ -44,12 +45,20 @@ export default class MainController {
             if (className === 'share-main') {
                 shareMainKakao();
             }
+            if (className === 'reset') {
+                restart();
+            }
         })
         this.question = question;
         audio.addEventListener('ended', function(){
             this.currentTime = 0;
             this.play();
         }, false);
+    }
+
+    restart() {
+        localStorage.removeItem("result");
+        window.location.href = ".";
     }
 
     shareMainKakao() {

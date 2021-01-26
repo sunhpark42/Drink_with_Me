@@ -22,6 +22,7 @@ export default class Result {
                 )}
             </div>
             <button class="share-fin">공유하기</button>
+            <button class="reset">다시하기</button>
             <div class="footer">
             제작 : 홍수진, 박선희
             </div>
