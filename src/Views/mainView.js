@@ -17,6 +17,7 @@ export default class MainView {
                 <p>*음악이 재생되는 컨텐츠 입니다*</p>
                 <p>이어폰을 꽂고 플레이하시면 더 좋아요</p>
             </div>
+            <button class="share">SHARE</button>
             <div class="footer">
             <p>제 작 : 홍수진, 박선희</p>
             </div>
