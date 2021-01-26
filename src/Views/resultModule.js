@@ -1,8 +1,12 @@
 import { resultScript } from "../resultScript.js";
 
 export default class Result {
-    constructor() {
-        this.result = this.getResult();
+    constructor(type) {
+        if (type != null) {
+            this.result = type;
+        } else {
+            this.result = this.getResult();
+        }
         this.view();
     }
 
@@ -17,7 +21,7 @@ export default class Result {
                     : ``
                 )}
             </div>
-            <button class="share">공유하기</button>
+            <button class="share-fin">공유하기</button>
             <div class="footer">
             제작 : 홍수진, 박선희
             </div>
