@@ -1,0 +1,1 @@
+const kakaoKey = '06f8bf9b467d79bb93444d8ccdc61f66';
