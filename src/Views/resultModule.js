@@ -12,7 +12,7 @@ export default class Result {
                 <p class="title">결과 : ${this.result}</p>
                 ${resultScript.map(res => 
                     res.type === this.result ? `
-                    <img src="${res.image}" alt="${res.type}"/>
+                    <img src="../../images/temp_martini.jpg" alt="${res.type}"/>
                     <p class="result-script">${res.script}</p>`
                     : ``
                 )}
