@@ -1,4 +1,4 @@
-const ImageRoot = 'https://sunhpark42.github.io/Drink_with_Me/src/assets/images/result/';
+const ImageRoot = 'https://sunhpark42.github.io/Drink_with_Me/src/assets/images/result';
 
 const result = [
   {

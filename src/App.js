@@ -21,6 +21,12 @@ const Contents = styled.div`
 function App() {
   return (
     <Container className="App">
+      <audio controls>
+        <source
+          src="https://sunhpark42.github.io/Drink_with_Me/src/assets/Sunny Days - Anno Domini Beats.mp3"
+          type="audio/mp3"
+        />
+      </audio>
       <GlobalStyle />
       <Contents>
         <Router>
