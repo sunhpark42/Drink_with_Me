@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { Footer } from './components';
 import styled from 'styled-components';
 import GlobalStyle from './globalStyle';
@@ -34,6 +34,7 @@ function App() {
             <Route exact path={PATH.ROOT} component={MainPage} />
             <Route exact path={`${PATH.QUESTION}/:id`} component={QuestionPage} />
             <Route exact path={`${PATH.RESULT}/:id`} component={ResultPage} />
+            <Redirect to={PATH.ROOT} />
           </Switch>
         </Router>
       </Contents>
