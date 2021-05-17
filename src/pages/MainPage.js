@@ -69,6 +69,8 @@ const MainPage = () => {
   const history = useHistory();
 
   const routeQuestionPage = () => {
+    document.getElementById('bgm').volume = 0.1;
+    document.getElementById('bgm').play();
     const timeoutId = setTimeout(() => history.push(`${PATH.QUESTION}/0`), 500);
   };
 
