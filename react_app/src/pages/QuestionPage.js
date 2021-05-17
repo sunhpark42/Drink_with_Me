@@ -167,7 +167,7 @@ const QuestionPage = () => {
 
   return (
     <Container>
-      {id === '13' && <Redirect to={PATH.RESULT}></Redirect>}
+      {id === '13' && <Redirect to={`${PATH.RESULT}/0`} />}
       <QuestionContainer>
         <QuestionImage src={data?.image} alt=""></QuestionImage>
         <QuestionText ref={questionTextEl}>{data?.questionText}</QuestionText>
