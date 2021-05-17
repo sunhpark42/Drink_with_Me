@@ -1,8 +1,10 @@
-import MainController from "./Views/mainController.js";
-import MainView from "./Views/mainView.js";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-localStorage.setItem("result", [0,0,0,0,0,0,0,0]);
-
-
-new MainView();
-new MainController(0);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
